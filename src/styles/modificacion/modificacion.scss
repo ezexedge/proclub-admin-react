@@ -1,0 +1,484 @@
+button .button-agregar{
+    display: none;
+}
+
+.pepa{
+    background-color: red;
+}
+.container{
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .hr-text{
+    position: relative;
+    ouline: 0;
+    border: 0;
+    height: 1.5em;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .hr-text:before{
+    content: '';
+    position: absolute;
+    background: #223354;
+    opacity: 20%;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1.2px;
+  }
+  .hr-text:after{
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 1em;
+    line-height: 1.5em;
+    color: #818078;
+    background-color: #fcfcfa;
+  }
+
+ 
+.garbage{
+  color: #FF1A43!important;
+  background-color: #FFE8EC!important;
+  border: 1px solid #FF0000!important;
+  width: 50px!important;
+  height: 50px!important;
+  margin-right: 14px!important;
+}
+
+.documentacion{
+  font-size: 50px!important;
+  color: #223354;
+  opacity:  0.5;
+}
+.documentacion-small{
+  font-size: 25px!important;
+  color: #223354;
+  opacity:  0.5;
+}
+.card-documentacion{
+  padding: 31px!important;
+  text-align: center;
+}
+.line-documentacion{
+
+
+opacity: 0.1;
+/* Color States/Common/Black */
+border: 1px solid #223354;
+
+
+}
+
+.documentacion-font{
+  font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+margin: 0px;
+
+}
+
+
+.documentacion-font-sub{
+  /* Edited last week by Horia */
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+margin: 5px 0px 10px 0px;
+
+/* Color States/Common/Black 50 */
+color: rgba(34, 51, 84, 0.5);
+
+
+}
+
+.documentacion-content{
+width: 146px!important;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+/*
+.field fieldset{
+  border: 2px solid white!important;
+}
+*/
+
+
+.btnFilterDocumentacion{
+  color: black!important;
+  background-color: white!important;
+  border: 1px solid #CCCEDD;
+  width: 209px;
+  margin-left: 18.9px!important;
+  display: flex!important;
+  justify-content: space-between!important;
+
+/* Color States/Common/White */
+background: #FFFFFF;
+/* Light Bloom/Light Bloom 100 */
+border: 1px solid #CCCEDD;
+box-sizing: border-box;
+border-radius: 6px;
+
+
+
+}
+
+.img-documentacion{
+  /* image */
+
+  height: 114px;
+  width: 100%;
+background-image: url("https://navarrotorresarquitectos.com/wp-content/uploads/2020/04/026-villa-carlos-paz-3.jpg");
+background-size: cover;
+background-position: 50% 55%;
+background-repeat: no-repeat;  
+border-radius: 8px;
+  
+
+
+}
+
+.cardContent-documentacion{
+  padding: 11px!important;
+}
+
+.tituloDocumentacion{
+  margin: 0px!important;
+  padding: 0px!important;
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 16px!important;
+
+}
+
+.descripcionDocumentacion{
+  margin: 0px!important;
+  padding: 0px!important;
+  font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+opacity: 0.5;
+
+margin-top: 15px!important;
+
+
+}
+
+.badgesDocumentacion{
+  font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+padding: 4px, 15px, 4px, 15px;
+background: #2233541A 10%;
+height: 22px;
+width: 102px;
+margin-top: 40px;
+border-radius: 22px;
+
+
+
+}
+
+
+.btn-documentacion{
+  height: 30px!important;
+width: 124.6567153930664px!important;
+
+
+}
+
+.paginacion-documentacion ul li button{
+
+  background-color:  white;
+  margin-top: 135px!important;
+  margin-bottom: 50px!important;
+}
+
+
+.marginBuscador-documentacion{
+  margin-top: 33px!important;
+}
+
+.marginFilter-documentacion{
+  margin-top: 41px!important;
+
+}
+
+.uploadBeneficio{
+  background: #223354, 20% !important;
+ height: 118px!important;
+}
+
+
+.tipografiaBeneficio{
+  font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+color:#223354!important;
+opacity: .5!important;
+}
+
+
+.iconoBeneficio{
+  height: 22.66666603088379px!important;
+width: 18.666667938232422px!important;
+color: #6B64F8!important;
+
+}
+
+.buscadorInfo{
+  
+/* Color States/Common/White */
+background: #FFFFFF;
+/* Gray Goose/Card Shadow */
+box-shadow: 0px 9px 16px rgba(159, 162, 191, 0.18), 0px 2px 2px rgba(159, 162, 191, 0.32);
+border-radius: 6px;
+height: 51px!important;
+}
+
+.border{
+  border: 1px solid #FFFFFF!important;
+
+}
+
+.iconoInfo{
+  /* Vector */
+
+margin-left: 10px!important;
+color: #223354;
+opacity: .5;
+}
+
+.titleCardInfo{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 135.4%;
+/* or 22px */
+display: flex;
+align-items: center;
+
+/* Color States/Common/Black */
+color: #223354;
+
+
+}
+
+.chipInfo{
+  /* 0.0% */
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+align-items: center;
+/* Color States/Info/Info */
+color: #33C2FF;
+padding: 6px 10px;
+background-color: #EBF9FF;
+border-radius: 3px;
+
+}
+.chipInfo2{
+  /* 0.0% */
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+align-items: center;
+/* Color States/Info/Info */
+color: #FFA31A;
+padding: 6px 10px;
+background-color: #FFF6E8;
+border-radius: 3px;
+margin-left: 3px;
+}
+
+
+
+.colorIconEspacio{
+color: #6B64F8;
+}
+
+.alignText{
+  text-align: center!important;
+
+}
+
+
+.iconEspacioSingle{
+  width: 85px!important;
+  height: 85px!important;
+  box-shadow: 0px 2px 2px 0px #9FA2BF52;
+box-shadow: 0px 9px 16px 0px #9FA2BF2E;
+
+}
+
+
+.btnEspacioSingle{
+  margin-left: 18.93px!important;
+    margin-top: -26px!important;
+}
+
+.iconEspacioEdit{
+font-size: 18px;
+color: #7B61FF;
+margin-left: 15px;
+cursor: pointer;
+position: inherit;
+margin-top: -20px!important;
+}
+
+.iconPrint{
+  color: #7B61FF!important;
+margin-top: 10px;
+}
+
+
+.qrEspacio{
+  width: 202.78px;
+height: 232px;
+}
+
+.cardContentEspacio{
+  display: flex;
+  justify-content: center;
+}
+
+.cardLayout{
+  height: 342px!important;
+}
+
+.colorBlack{
+  color: black!important;
+}
+
+.alturaTable{
+  min-height: 197px!important;
+}
+
+.turnosTitle{
+  font-family: Roboto;
+  font-size: 21px!important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+.turnoSubtitle{
+  font-family: Roboto;
+  font-size: 15px!important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+color: #223354;
+opacity: .5;  
+}
+
+.btnTurnoEvento{
+  height: 38px!important;
+width: 159px!important;
+margin-left: 17px!important;
+}
+
+.btnTurnoConfig{
+  height: 38px!important;
+width: 163px!important;
+background-color: #6E759F!important;
+
+}
+
+.btnFlex{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.marginBuscador-turno{
+  margin-top: 24px!important;
+  margin-bottom: 0px!important;
+}
+
+
+.deportesUsuarios{
+  font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #3987FF;
+height: 16px;
+width: 84px;
+left: 988px;
+top: 342px;
+border-radius: undefinedpx;
+
+}
+
+
+.card-notificacion{
+  height: 420px!important;
+}
+
+
+.card-notificacion-phone{
+  width: 100%!important;
+  margin-top: 30px!important;
+}
+
+
+
+.icon-flecha-notificaciones{
+  margin: 17px 5px!important;
+ font-size: 15px!important;
+}
